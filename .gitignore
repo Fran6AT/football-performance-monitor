@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.runtime/
+data/bronze/*.csv
+data/silver/
+data/gold/
+outputs/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
