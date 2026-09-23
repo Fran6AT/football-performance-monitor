@@ -4,6 +4,12 @@ Question: how is a player's attacking performance changing over time?
 
 This is a separate local Streamlit project using the supplied 126,076-row historical CSV. It provides a Bronze → Silver → Gold pipeline, weighted KPIs, trend monitoring, peer comparisons and a chronological next-match scoring experiment. The previous project is unchanged.
 
+## Using the dashboard
+
+Choose a season, team and searchable player name, then select a match date. The four navigation options are Player overview, Compare players, Chance of scoring, and Help & data. The overview starts with minutes, goals, assists and appearances; choose one measure to explore its recent trend. Definitions, full statistics and technical diagnostics are available in expandable sections. Trend sensitivity is an advanced sidebar setting. Missing-history and empty-comparison messages explain what to change.
+
+Scoring estimates describe a historical pre-match probability, while the overview describes performance through the selected match. The dashboard labels this distinction explicitly.
+
 ## Run on Windows
 
 ### Set up after cloning
